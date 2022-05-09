@@ -2,9 +2,11 @@ const express = require('express')
 const mongoose = require('mongoose')
 const { json } = require('body-parser')
 const cors = require('cors')
-const path = require('path');
+const path = require('path')
+const jwt = require('jsonwebtoken')
 
 const saldos = require('./routes/saldo')
+const index = require('./jwt/index')
 
 const server = express()
 const port = 2004
