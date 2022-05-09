@@ -4,14 +4,14 @@ const { json } = require('body-parser')
 const cors = require('cors')
 const path = require('path');
 
-const temperatures = require('./routes/temperature')
+const saldos = require('./routes/saldo')
 
 const server = express()
-const port = 4001
+const port = 2004
 
 server.use(json())
 server.use(cors())
-server.use('/temperature', temperatures)
+server.use('/saldo', saldos)
 server.use(express.static('public'))
 
 server.get('/', (req, res) => {
@@ -21,7 +21,7 @@ server.get('/', (req, res) => {
 server.use((req, res) => res.status(404).sendFile(path.join(__dirname, "views", "404.html")));
 
 const main = async () => {
-  await mongoose.connect(process.env.MY_CONN);
+  await mongoose.connect('mongodb+srv://AriellyDO:02042004@cluster0.jl7ho.mongodb.net/myFirstDatabase?retryWrites=true&w=majority');
 }
 
 main()
