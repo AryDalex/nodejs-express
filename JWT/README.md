@@ -56,11 +56,11 @@
 
     Tem facilidade de esconder coisas que você não quer que vaze, isso é feito protegendo seus dados de influencias externas, assim, madando mensagem para esse proprio objeto, como metodos ou eventos. Também faz com que a estrutura de dados fique contida em uma estrutura só, no caso nos objetos.
 
-6. Quais as diferenças entre programação estruturada e programação orientada a objetos ?
+5. Quais as diferenças entre programação estruturada e programação orientada a objetos ?
 
     A programação orientada a objetos é voltada ao conseito de classes e herança, entretando, a programação estruturada é voltada procedimentos e funções definidas por usuários. 
 
-7. Quais linguagens estruturadas e quais linguagens orientadas a objetos ?
+6. Quais linguagens estruturadas e quais linguagens orientadas a objetos ?
 
     #### Linguagens estruturadas
 
@@ -79,7 +79,7 @@
     - C#
     - C++
 
-8. O que são classes e o que são objetos ?
+7. O que são classes e o que são objetos ?
     
     #### Classes
 
@@ -93,7 +93,7 @@
 
     ![image](https://user-images.githubusercontent.com/97049417/167919724-1a5d2248-10c2-4618-9f8c-363c04caa3e7.png)
 
-9. Quais o quatro pilares da POO ? Descreva cada um deles com suas palavras.
+8. Quais o quatro pilares da POO ? Descreva cada um deles com suas palavras.
 
 
 
