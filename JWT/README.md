@@ -5,7 +5,7 @@
 
 1. Pesquisar sobre o que é JWT (Json Web Token) e Cookies para transporte de dados, descrever.
 
-    ### JWT
+    #### JWT
 
     JWT (Json Web Token) é um padrão da indústria definido pela RFC7519, para realizar autenticação entre duas partes por meio de um token assinado que autentica uma requisição web.
     
@@ -35,7 +35,7 @@
 
     ![image](https://user-images.githubusercontent.com/97049417/167473772-8c3d3a52-72e3-4d48-9f23-4fa925b65068.png)
     
-    ### Cookies
+    #### Cookies
 
     Os cookies contêm informações que nos ajudam a identificar o visitante, como personalizar a página de acordo com o perfil, gerar métricas de visitas ou de comportamento ou para facilitar o transporte de dados entre as páginas do site. Ou seja, é para identificar os usuários que acessão as páginas e mostrar informações de acordo com os seus interesses.
 
@@ -62,7 +62,7 @@
 
 7. Quais linguagens estruturadas e quais linguagens orientadas a objetos ?
 
-    ### Linguagens estruturadas
+    #### Linguagens estruturadas
 
     - PL/1
     - Fortran
@@ -72,7 +72,7 @@
     - Pascal
     - Simula
 
-    ### Linguagens orientadas a objetos
+    #### Linguagens orientadas a objetos
 
     - Java 
     - Python
@@ -80,16 +80,18 @@
     - C++
 
 8. O que são classes e o que são objetos ?
-
-    ### Objetos
-
-    Qualquer conjunto de dados dentro do código é um objeto, os objetos são as características.
-
-    ### Classes
+    
+    #### Classes
 
     Classe é a definição do tipo, é um conjunto de características. Representa objetos do mesmo tipo (pussuem os mesmos comportamentos), são da mesma classe.
 
+    ![image](https://user-images.githubusercontent.com/97049417/167919627-6e9359ac-5b9e-403f-bd21-9f713feada5c.png)
     
+    #### Objetos
+
+    Qualquer conjunto de dados dentro do código é um objeto, os objetos são as características.
+
+    ![image](https://user-images.githubusercontent.com/97049417/167919724-1a5d2248-10c2-4618-9f8c-363c04caa3e7.png)
 
 9. Quais o quatro pilares da POO ? Descreva cada um deles com suas palavras.
 
