@@ -6,7 +6,7 @@ const path = require('path')
 const jwt = require('jsonwebtoken')
 
 const saldos = require('./routes/saldo')
-const index = require('./jwt/index')
+const users = require('./routes/user')
 
 const server = express()
 const port = 2004
@@ -14,6 +14,7 @@ const port = 2004
 server.use(json())
 server.use(cors())
 server.use('/saldo', saldos)
+server.use('/user', users)
 server.use(express.static('public'))
 
 server.get('/', (req, res) => {

@@ -5,7 +5,7 @@
 
 1. Pesquisar sobre o que é JWT (Json Web Token) e Cookies para transporte de dados, descrever.
 
-    ### JWT
+    #### JWT
 
     JWT (Json Web Token) é um padrão da indústria definido pela RFC7519, para realizar autenticação entre duas partes por meio de um token assinado que autentica uma requisição web.
     
@@ -35,7 +35,7 @@
 
     ![image](https://user-images.githubusercontent.com/97049417/167473772-8c3d3a52-72e3-4d48-9f23-4fa925b65068.png)
     
-    ### Cookies
+    #### Cookies
 
     Os cookies contêm informações que nos ajudam a identificar o visitante, como personalizar a página de acordo com o perfil, gerar métricas de visitas ou de comportamento ou para facilitar o transporte de dados entre as páginas do site. Ou seja, é para identificar os usuários que acessão as páginas e mostrar informações de acordo com os seus interesses.
 
@@ -56,13 +56,13 @@
 
     Tem facilidade de esconder coisas que você não quer que vaze, isso é feito protegendo seus dados de influencias externas, assim, madando mensagem para esse proprio objeto, como metodos ou eventos. Também faz com que a estrutura de dados fique contida em uma estrutura só, no caso nos objetos.
 
-6. Quais as diferenças entre programação estruturada e programação orientada a objetos ?
+5. Quais as diferenças entre programação estruturada e programação orientada a objetos ?
 
     A programação orientada a objetos é voltada ao conseito de classes e herança, entretando, a programação estruturada é voltada procedimentos e funções definidas por usuários. 
 
-7. Quais linguagens estruturadas e quais linguagens orientadas a objetos ?
+6. Quais linguagens estruturadas e quais linguagens orientadas a objetos ?
 
-    ### Linguagens estruturadas
+    #### Linguagens estruturadas
 
     - PL/1
     - Fortran
@@ -72,28 +72,51 @@
     - Pascal
     - Simula
 
-    ### Linguagens orientadas a objetos
+    #### Linguagens orientadas a objetos
 
     - Java 
     - Python
     - C#
     - C++
 
-8. O que são classes e o que são objetos ?
-
-    ### Objetos
-
-    Qualquer conjunto de dados dentro do código é um objeto, os objetos são as características.
-
-    ### Classes
+7. O que são classes e o que são objetos ?
+    
+    #### Classes
 
     Classe é a definição do tipo, é um conjunto de características. Representa objetos do mesmo tipo (pussuem os mesmos comportamentos), são da mesma classe.
 
+    ![image](https://user-images.githubusercontent.com/97049417/167919627-6e9359ac-5b9e-403f-bd21-9f713feada5c.png)
     
+    #### Objetos
 
-9. Quais o quatro pilares da POO ? Descreva cada um deles com suas palavras.
+    Qualquer conjunto de dados dentro do código é um objeto, os objetos são as características.
+
+    ![image](https://user-images.githubusercontent.com/97049417/167919724-1a5d2248-10c2-4618-9f8c-363c04caa3e7.png)
+
+8. Quais o quatro pilares da POO ? Descreva cada um deles com suas palavras.
+
+    #### Abstração
 
 
+
+    #### Encapsulamento
+
+
+
+    #### Herança
+
+
+
+    #### Polimorfismo
+
+    São classes diferentes, com características diferentes, mas que fazem a mesma função de jeitos diferentes.
+
+### Links
+---
+
+<a href="https://www.alura.com.br/artigos/poo-programacao-orientada-a-objetos">Alura</a>
+
+<a herf="https://www.luiztools.com.br/post/autenticacao-json-web-token-jwt-em-nodejs/">JWT</a>
 
 ### Observações Sobre os Projetos
 ---

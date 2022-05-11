@@ -9,26 +9,6 @@ const validate = [
     expressValidator.check('saldo').isNumeric().withMessage('Field saldo should be a number')
 ]
 
-// user
-const check = [(req, res, next) => {
-
-    Users.findOne({username: req.header('username')}).then( result => {
-        const user = result.username; 
-        const pass = result.password;
-
-        if (req.header('password') != pass) {
-            console.log("Incorrect password")
-            return res.status(403).send()
-        }else {
-            console.log("Correct password");
-            next()
-        }
-
-    }).catch(err => {
-        return res.status(403).send("Incorrect username");
-    })
-}]
-
 router.get('/', (req, res) => {
     Saldo.find().then(saldos => {
         res.status(200).send(saldos);
@@ -46,19 +26,6 @@ router.get('/:id', (req, res) => {
         res.status(404);
     })
 
-})
-
-// user
-router.post('/user', (req, res) => {
-    const user = new Users({
-        username: req.body.username,
-        password: req.body.password,
-        role: req.body.role
-    })
-
-    user.save().then(() => {
-        res.status(200).send()
-    })
 })
 
 router.post('/', [validate], (req, res) => {
