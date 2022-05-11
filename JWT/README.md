@@ -48,13 +48,51 @@
 
 4. Pesquisar sobre POO (Programação Orientada a Objetos). O que é POO ?
 
+    ### POO (Programação Orientada a Objetos)
+
+    POO é um paradigma, é uma forma de estruturar seu código sua aplicações, que segue algumas regras. Ele dificulta o programa a fazer coisas errada e executar coisas erradas.
+
+    Qualquer conjunto de dados é um objeto. Se quiser fazer alterações nos dados ou criar novas estruturas apartir deles, você faz apartir de mensagens, metodos que esse objeto vai fazer.
+
+    Tem facilidade de esconder coisas que você não quer que vaze, isso é feito protegendo seus dados de influencias externas, assim, madando mensagem para esse proprio objeto, como metodos ou eventos. Também faz com que a estrutura de dados fique contida em uma estrutura só, no caso nos objetos.
+
 6. Quais as diferenças entre programação estruturada e programação orientada a objetos ?
+
+    A programação orientada a objetos é voltada ao conseito de classes e herança, entretando, a programação estruturada é voltada procedimentos e funções definidas por usuários. 
 
 7. Quais linguagens estruturadas e quais linguagens orientadas a objetos ?
 
+    ### Linguagens estruturadas
+
+    - PL/1
+    - Fortran
+    - Algol 68
+    - Cobol
+    - Linguagem C
+    - Pascal
+    - Simula
+
+    ### Linguagens orientadas a objetos
+
+    - Java 
+    - Python
+    - C#
+    - C++
+
 8. O que são classes e o que são objetos ?
 
+    ### Objetos
+
+    Qualquer conjunto de dados dentro do código é um objeto, os objetos são as características.
+
+    ### Classes
+
+    Classe é a definição do tipo, é um conjunto de características. Representa objetos do mesmo tipo (pussuem os mesmos comportamentos), são da mesma classe.
+
+    
+
 9. Quais o quatro pilares da POO ? Descreva cada um deles com suas palavras.
+
 
 
 ### Observações Sobre os Projetos
