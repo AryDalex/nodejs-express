@@ -76,12 +76,12 @@ Aonde ficam as Claims, algumas Claims são especificas do JWT e outras podem ser
 #### Signature (assinatura)
 Tem seu corpo com base do Header e no Payload.
     
-    ```
-    HMACSHA256(
-        base64UrlEncode(header) + "." +
-        base64UrlEncode(payload),
-        secret)
-    ```
+```
+HMACSHA256(
+    base64UrlEncode(header) + "." +
+    base64UrlEncode(payload),
+    secret)
+```
     
 ### Cookies
 
