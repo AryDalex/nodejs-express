@@ -13,7 +13,7 @@ class Stm32 extends AparelhoEletronico {
     }
 
     emitirComunicacao(){
-        console.log("Comunicando ligada!")
+        console.log("Comunicação ligada!")
     }
 
     getDebugger(){
@@ -21,7 +21,7 @@ class Stm32 extends AparelhoEletronico {
     }
 }
 
-const stm32 = new Stm32(2, 132, 3, "UART");
+const stm32 = new Stm32(2, 132, 3, "SPI");
 console.log(`Quantidade de botões: ${stm32.getBotao()}`);
 console.log(`Quantidade de pinos: ${stm32.getPinos()}`);
 console.log(`Quantidade de leds: ${stm32.getLed()}`);
