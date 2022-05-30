@@ -9,7 +9,7 @@ const saldos = require('./routes/saldo')
 const users = require('./routes/user')
 
 const server = express()
-const port = 2004
+const port = 4000
 
 server.use(json())
 server.use(cors())
@@ -24,7 +24,7 @@ server.get('/', (req, res) => {
 server.use((req, res) => res.status(404).sendFile(path.join(__dirname, "views", "404.html")));
 
 const main = async () => {
-  await mongoose.connect('mongodb+srv://AriellyDO:02042004@cluster0.jl7ho.mongodb.net/myFirstDatabase?retryWrites=true&w=majority');
+  await mongoose.connect(`mongodb+srv://${process.env.myUser}:${process.env.myPassword}@cluster0.jl7ho.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`);
 }
 
 main()
